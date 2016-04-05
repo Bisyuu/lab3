@@ -1,0 +1,32 @@
+Compile:
+		$ make
+
+Question B:
+
+size = 1000
+sort():0.001 seconds
+v1/v2 are different
+insertion_sort():0.009 seconds
+v1/v2 are the same
+
+size = 10000
+sort():0.004 seconds
+v1/v2 are different
+insertion_sort():0.971 seconds
+v1/v2 are the same
+
+size = 100000
+sort():0.048 seconds
+v1/v2 are different
+insertion_sort():96.027 seconds
+v1/v2 are the same
+
+size = 1000000
+sort():0.448 seconds
+v1/v2 are different
+insertion_sort():9842.025 seconds
+v1/v2 are the same
+
+
+At first,the time sort() and insertion_sort() cost are almost the same.
+As the size increases,the time insertion_sort() costs rises extremely.
